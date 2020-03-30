@@ -1,1 +1,7 @@
-hi
+원격 저장소를 복제한 것이 아니라면,
+원격 서버의 주소를 git에게 알려줘야된다.
+-> git remote add origin <주소>
+
+git add *
+git commit -m "설명"
+git push origin master
