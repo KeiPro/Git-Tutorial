@@ -5,3 +5,11 @@
 git add *
 git commit -m "설명"
 git push origin master
+
+< 폴더나 파일을 삭제할때 >
+
+1. 해당 저장소를 열고나서,
+2. git rm -r --cached 폴더명 
+3. git commit -m "폴더를 삭제하였습니다."
+4. git push origin master(master나 사용중인 브랜치)
+
